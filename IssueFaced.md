@@ -1,4 +1,4 @@
-# Commerce-Assignment
+# Personal Use Points
 
 To start the mysql Docker container follow [this](https://www.techrepublic.com/article/how-to-deploy-and-use-a-mysql-docker-container/) article
 
