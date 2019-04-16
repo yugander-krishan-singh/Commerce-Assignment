@@ -20,7 +20,7 @@ The application consists of 3 entities named **items**, **orders** and **order_d
 
 ### ITEMS:
 
-**CREATE**: Http Method: POST , URL: `http://localhost:8080/api/items` , BODY: 
+**_CREATE_**: Http Method: POST , URL: `http://localhost:8080/api/items` , BODY: 
 
 ```
 {
@@ -30,11 +30,11 @@ The application consists of 3 entities named **items**, **orders** and **order_d
 
 ```
 
-**GET All Items**: Http Method: GET, URL: `http://localhost:8080/api/items`
+_**GET All Items**_: Http Method: GET, URL: `http://localhost:8080/api/items`
 
-**GET An Item**: Http Method: GET, URL: `http://localhost:8080/api/items/{item-id}`
+_**GET An Item**_: Http Method: GET, URL: `http://localhost:8080/api/items/{item-id}`
 
-**Update An Item**: Http Method: PUT, URL: `http://localhost:8080/api/items/{item-id}`, BODY: 
+_**Update An Item**_: Http Method: PUT, URL: `http://localhost:8080/api/items/{item-id}`, BODY: 
 ```
 
 {
@@ -44,12 +44,12 @@ The application consists of 3 entities named **items**, **orders** and **order_d
 
 ```
 
-**Delete An Item**: Http Method: DELETE, URL: `http://localhost:8080/api/items/{item-id}`
+_**Delete An Item**_: Http Method: DELETE, URL: `http://localhost:8080/api/items/{item-id}`
 
 
 ### Orders:
 
-**CREATE(Single order/Bulk Order)**: Http Method: POST , URL: `http://localhost:8080/api/orders` , BODY: 
+_**CREATE(Single order/Bulk Order)**_: Http Method: POST , URL: `http://localhost:8080/api/orders` , BODY: 
 
 ```
 
@@ -67,9 +67,9 @@ The application consists of 3 entities named **items**, **orders** and **order_d
 }		
 ```
 
-**Get All Orders**: Http Method: GET, URL: `http://localhost:8080/api/orders`
+_**Get All Orders**_: Http Method: GET, URL: `http://localhost:8080/api/orders`
 
-**Get An Order**: Http Method: GET, URL: `http://localhost:8080/api/orders/{order-id}`
+_**Get An Order**_: Http Method: GET, URL: `http://localhost:8080/api/orders/{order-id}`
 
 
 
