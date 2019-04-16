@@ -14,7 +14,9 @@
 
 ITEMS:
 
-CREATE: Http Method: POST , URL: `http://localhost:8080/api/items` , BODY: ```
+CREATE: Http Method: POST , URL: `http://localhost:8080/api/items` , BODY: 
+
+```
 {
 	"itemName":"Item2",
 	"availableQuantity":300
