@@ -6,8 +6,6 @@ We have made use of spring-boot, jdk11, JPA and Hibernate for creating this appl
 ### Data-Modelling:  
 The application consists of 3 entities named items, orders and order_details. There is one to many relationship between order and order deatils. orderNo is the foreign key inside order_details table.
 
-**TODO**: one to one relationship between order_details and item.
-
 ## Steps to Run the application: 
 
 ### Prerequisites: Jdk 11, Mysql
@@ -73,4 +71,12 @@ The application consists of 3 entities named items, orders and order_details. Th
 
 **Get An Order**: Http Method: GET, URL: `http://localhost:8080/api/orders/{order-id}`
 
+
+
+### TODO: 
+- one to one relationship between order_details and item.
+- Transaction support while updating the table
+- Better error handling
+- Delete the order api
+- Dockerize the application
 
