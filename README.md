@@ -1,7 +1,7 @@
 # Commerce-Assignment
 
 ## Intro: 
-We have made use of **spring-boot**, **jdk11**, **JPA** and **Hibernate** for creating this application.
+We have made use of **spring-boot**, **jdk11**, **mysql**, **JPA** and **Hibernate** for creating this application.
 
 ### Data-Modelling:  
 The application consists of 3 entities named **items**, **orders** and **order_details**. There is **one to many relationship** between order and order deatils. orderNo is the foreign key inside order_details table.
