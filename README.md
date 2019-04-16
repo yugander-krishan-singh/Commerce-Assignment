@@ -77,6 +77,6 @@ _**Get An Order**_: Http Method: GET, URL: `http://localhost:8080/api/orders/{or
 - one to one relationship between order_details and item.
 - Transaction support while updating the table
 - Better error handling
-- Delete the order api
+- **Delete the order** API  support
 - Dockerize the application
 
