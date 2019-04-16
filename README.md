@@ -12,9 +12,9 @@
 4. Now the spring boot's embedded servlet container will start in few seconds
 5. Open postman and can use the following endpoints:
 
-ITEMS:
+### ITEMS:
 
-CREATE: Http Method: POST , URL: `http://localhost:8080/api/items` , BODY: 
+**CREATE**: Http Method: POST , URL: `http://localhost:8080/api/items` , BODY: 
 
 ```
 {
@@ -24,11 +24,12 @@ CREATE: Http Method: POST , URL: `http://localhost:8080/api/items` , BODY:
 
 ```
 
-GET All Items: Http Method: GET, URL: `http://localhost:8080/api/items`
+**GET All Items**: Http Method: GET, URL: `http://localhost:8080/api/items`
 
-GET A Item: Http Method: GET, URL: `http://localhost:8080/api/items/{item-id}`
+**GET An Item**: Http Method: GET, URL: `http://localhost:8080/api/items/{item-id}`
 
-Update An Item: Http Method: PUT, URL: `http://localhost:8080/api/items/{item-id}`, BODY: ```
+**Update An Item**: Http Method: PUT, URL: `http://localhost:8080/api/items/{item-id}`, BODY: 
+```
 
 {
 	"itemName":"item2",
@@ -37,12 +38,14 @@ Update An Item: Http Method: PUT, URL: `http://localhost:8080/api/items/{item-id
 
 ```
 
-Delete An Item: Http Method: DELETE, URL: `http://localhost:8080/api/items/{item-id}`
+**Delete An Item**: Http Method: DELETE, URL: `http://localhost:8080/api/items/{item-id}`
 
 
-Orders:
+### Orders:
 
-CREATE(Single order/Bulk Order): Http Method: POST , URL: `http://localhost:8080/api/orders` , BODY: ```
+**CREATE(Single order/Bulk Order)**: Http Method: POST , URL: `http://localhost:8080/api/orders` , BODY: 
+
+```
 
 {
 	"email":"xyz@gmail.com",
@@ -58,8 +61,8 @@ CREATE(Single order/Bulk Order): Http Method: POST , URL: `http://localhost:8080
 }		
 ```
 
-Get All Orders: Http Method: GET, URL: `http://localhost:8080/api/orders`
+**Get All Orders**: Http Method: GET, URL: `http://localhost:8080/api/orders`
 
-Get An Order: Http Method: GET, URL: `http://localhost:8080/api/orders/{order-id}`
+**Get An Order**: Http Method: GET, URL: `http://localhost:8080/api/orders/{order-id}`
 
 
