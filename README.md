@@ -9,7 +9,7 @@
 1. Have a Mysql DB locally or have it's docker container running .
 2. Once mysql server is running then replace the ip of mysql server in the application.properties file `spring.datasource.url== jdbc:mysql://9.202.178.127:3306/ecommerce?allowPublicKeyRetrieval=true&useSSL=false`
 3. Now run the comand `./gradlew build && java -jar PATH_TO/build/libs/ecommerce-0.0.1-SNAPSHOT.jar`
-4. Now the spring boot's embedded servlet container will start in few seconds
+4. Now the spring boot's embedded servlet container will start in few seconds and you can access the app using `IP:8080`
 5. Open postman and can use the following endpoints:
 
 ### ITEMS:
