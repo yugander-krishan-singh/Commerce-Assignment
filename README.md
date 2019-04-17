@@ -74,7 +74,7 @@ _**Get An Order**_: Http Method: GET, URL: `http://localhost:8080/api/orders/{or
 
 
 ### TODO: 
-- one to one relationship between order_details and item.
+- Many to Many relationship between order_details and item.
 - Transaction support while updating the table
 - Better error handling
 - **Delete the order** API  support
